@@ -58,7 +58,7 @@ nav ul i {
     margin-left: 10px;
 }
 
-header {
+header.home {
     background-image: url(./creative-assets/home-1.jpeg);
     background-size: cover;
     background-position: center;
@@ -182,7 +182,7 @@ nav ul i {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.3px;
-    width: 60%;
+    width: 70%;
     font-weight: regular;
 }
 
@@ -202,13 +202,42 @@ nav ul i {
 }
 
 .list ul {
-    width: 25%;
+    width: 32%;
 }
 
 .list {
-    padding-top: 100px;
-    padding-left: 160px;
-    
+    padding-left: 170px;
+    padding-top: 70px;
+}
+
+.list .second {
+    padding-top: 5px;
+}
+
+.list .fas.fa-magic,
+.list .fas.fa-tv,
+.list .fas.fa-sliders-h,
+.list .fas.fa-search,
+.list .fas.fa-shopping-bag,
+.list .far.fa-smile {
+    height: 100%;
+    font-size: 27px;
+}
+
+.littleCircle {
+    min-width: 75px;
+    min-height: 75px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin-right: 33px;
+}
+
+.imageList {
+    display: flex;
+    align-items: center;
 }
 
 .gridWrapper {
@@ -492,6 +521,109 @@ p.bottom {
     background-color: black;
     height: 40px;
 }
+
+/* blog.css */
+
+header.blog {
+    background-image: url(./creative-assets/blog-1.jpeg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.blogPage h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+.blogPage h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    font-size: 37px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+.blogFirst p {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    font-weight: regular;
+    padding-bottom: 40px;
+}
+
+.blogFirst p span {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    font-weight: regular;
+    color: grey;
+}
+
+.alexPicture {
+    width: 100px;
+}
+
+.alexPicture img {
+    border-radius: 50%;
+}
+
+.blogFirst h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-top: 42px;
+}
+
+.blogParent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigBlogParent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightBlogParent {
+    display: flex;
+}
+
+.rightBlogParent {
+    margin-left: 40px;
+}
+
+div.blogTop {
+    margin-left: 70px;
+}
+
+.blogTop p {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    font-weight: regular;
+    padding-bottom: 40px;
+    color: grey;
+    margin-top: 8px;
+}
+
+.blogText p {
+    margin-top: 15px;
+    padding: 0;
+}
+
+
+
+
 
 
 
