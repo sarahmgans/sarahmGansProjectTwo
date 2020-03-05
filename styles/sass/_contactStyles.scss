@@ -1,0 +1,73 @@
+.contactBackgroundStrip {
+    background-image: url(../creative-assets/contact-1.jpeg);
+    height: 185px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contactFirst h1 {
+    letter-spacing: $frequentLetterSpacing;
+    font-size: 40px;
+    font-weight: bold;
+    width: 50px;
+    transform: translateY(-91px);
+}
+
+.contactFirst h3 {
+    font-weight: bold;
+    letter-spacing: $frequentLetterSpacing;
+    font-size: 14px;
+}
+ 
+.contactOptionsParent {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.contactOptionsParent i {
+    font-size: 30px;
+}
+
+.contactOptionsParent .borderLeft {
+    border-left: 1px solid grey;
+    padding-left: 56px;
+
+}
+
+.contactOptionsParent p {
+    line-height: 9px;
+    color: grey;
+}
+
+.contactOptionsParent h5 {
+    letter-spacing: $frequentLetterSpacing;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.commentLeaving h3 {
+    font-weight: bold;
+    letter-spacing: $frequentLetterSpacing;
+    font-size: 14px;
+    padding-top: 60px;
+}
+
+.commentLeaving p {
+    line-height: 5px;
+    color: grey;
+}
+
+.contact h3 {
+    border: none;
+}
+
+.submit.contact {
+    width: 119px;
+}
+
+section.wrapper:nth-child(2) > p:nth-child(3) {
+    width: 50%;
+    color: grey;
+}

@@ -1,0 +1,257 @@
+header.blog {
+    background-image: url(../creative-assets/blog-1.jpeg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.blogPage h2 {
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    font-size: 37px;
+}
+
+.blogPage h1 {
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.blogFirst p {
+    padding-bottom: 40px;
+}
+
+.blogFirst p span {
+    color: grey;
+}
+
+.alexPicture {
+    width: 100px;
+}
+
+.alexPicture img {
+    border-radius: 50%;
+}
+
+.blogFirst h4 {
+    letter-spacing: $frequentLetterSpacing;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 42px;
+}
+
+.blogParent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigBlogParent {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+
+.rightBlogParent {
+    display: flex;
+}
+
+.rightBlogParent {
+    margin-left: 40px;
+}
+
+div.blogTop {
+    margin-left: 70px;
+}
+
+.blogTop p {
+    padding-bottom: 40px;
+    color: grey;
+    margin-top: 8px;
+}
+
+.blogText p {
+    margin-top: 27px;
+    padding: 0;
+    color: grey;
+}
+
+.blogText .bold {
+    color: black;
+    margin-top: 70px;
+}
+
+.blogFirst h5 {
+    letter-spacing: $frequentLetterSpacing;
+    font-size: 14px;
+}
+
+.shareParent {
+    display: flex;
+    align-items: center;
+}
+
+.shareParent i {
+    margin: 10px;
+    font-size: 13px;
+}
+
+.threePictureParent {
+    display: flex;
+    justify-content: space-between
+}
+
+.threePictureParent p {
+    font-family: $largeFont;
+    font-weight: 400;
+    letter-spacing: $frequentLetterSpacing;
+    font-size: 14px;
+    color: grey;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.blogPage h3,
+.contact h3 {
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    font-size: 32px;
+    padding-bottom: 15px;
+    border-bottom: grey 1px solid;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+}
+
+.commentParent {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+/* dialogue box from codepen https://codepen.io/talentedunicorn/pen/rEqsf */
+
+.tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #f6f6f6;
+}
+
+.tip-left {
+  top: 10px;
+  left: -25px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;  
+}
+
+.dialogbox {
+    margin-left: 30px;
+}
+
+.dialogbox .body {
+  position: relative;
+  max-width: 1280px;
+  padding: 5px;
+  background-color: #f6f6f6;
+  border: 5px solid #f6f6f6;
+}
+
+.message h4 {
+    letter-spacing: $frequentLetterSpacing;
+    font-size: 14px;
+    color: black;
+    margin: 20px;
+}
+
+.message h4 span {
+    font-family: $smallFont;
+    font-style: italic;
+    text-transform: none;
+    color: grey;
+}
+
+.message p {
+    color: darkslategrey;
+    margin: 20px;
+}
+
+.message h5 {
+    letter-spacing: $frequentLetterSpacing;
+    font-size: 12px;
+    color: grey;
+    margin: 20px;
+}
+
+.contactParent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+    margin-top: 55px;
+}
+
+.hereGoes > textarea:nth-child(2) {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family: $smallFont;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: $frequentLetterSpacing;
+    font-weight: regular;
+    color: darkslategrey;
+
+}
+
+.submit {
+    margin-bottom: 120px;
+    margin-top: 55px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 141px;
+    font-family: $largeFont;
+    font-weight: 400;
+    letter-spacing: $frequentLetterSpacing;
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    height: 30px;
+    text-align: left;
+    padding: 0;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 400px;
+    height: 30px;
+    font-family: $smallFont;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: $frequentLetterSpacing;
+    font-weight: regular;
+    color: darkslategrey;
+}
+
+input::placeholder {
+    font-family: $smallFont;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: $frequentLetterSpacing;
+    font-weight: regular;
+    color: darkslategrey;
+}
+
+.textArea {
+    padding-bottom: 120px;
+}
