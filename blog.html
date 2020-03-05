@@ -81,10 +81,10 @@
             <div class="blogText">
             <p class="bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quaerat assumenda cum eaque. Molestias eum suscipit, eos magni officia dolore expedita, qui repudiandae vel, laboriosam iure beatae omnis perferendis.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt officiis omnis tempora? Incidunt vel quo beatae inventore neque repudiandae, eum corporis recusandae sed reprehenderit doloremque magni eos voluptate explicabo fuga.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae at debitis quisquam, incidunt laboriosam autem aspernatur magni excepturi? Unde explicabo, consequuntur voluptates sint aliquam quidem dolor. Vitae adipisci fugiat amet culpa debitis temporibus deserunt esse, cupiditate exercitationem quod iusto rem! Accusantium consequuntur earum ex architecto repellendus quas deleniti quo nobis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae at debitis quisquam, incidunt laboriosam autem aspernatur magni excepturi? Unde explicabo, consequuntur voluptates sint aliquam quidem dolor. Vitae adipisci fugiat amet culpa debitis temporibus deserunt esse, cupiditate exercitationem quod iusto rem! Accusantium consequuntur earum ex architecto repellendus quas deleniti quo nobis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus expedita commodi aperiam fugiat aliquid ad dolor necessitatibus obcaecati eos odit unde, quos, iste veritatis! Atque laboriosam corporis, molestiae soluta possimus ea repellendus quas qui culpa cupiditate neque obcaecati consequatur sit.</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus expedita commodi aperiam fugiat aliquid ad dolor necessitatibus obcaecati eos odit unde, quos, iste veritatis! Atque laboriosam corporis, molestiae soluta possimus ea repellendus quas qui culpa cupiditate neque obcaecati consequatur sit.</p>
             </div>
-            <div class="commonParent">
+            <div class="shareParent">
                 <h5>Share:</h5>
                 <div>
                     <i class="fab fa-facebook-f"></i>
@@ -97,9 +97,9 @@
                 </div>
             </div>
         </section>
-        <section class="blogSecond">
-            <h2>Related Posts</h2>
-            <div class="commonParent">
+        <section class="wrapper blogSecond">
+            <h3>Related Posts</h3>
+            <div class="threePictureParent">
                 <div>
                     <div>
                         <img src="./creative-assets/blog-3.jpeg" alt="">
@@ -120,29 +120,49 @@
                 </div>
             </div>
         </section>
-        <section class="comments">
-            <h2>02 Comments</h2>
-            <div class="commonParent">
+        <section class="wrapper comments">
+            <h3>02 Comments</h3>
+            <div class="commentParent">
                 <div>
                     <img src="./creative-assets/blog-6.jpeg" alt="">
                 </div>
-                <div class="dialogueBox">
-            
+                <!-- dialogue box from codepen https://codepen.io/talentedunicorn/pen/rEqsf -->
+                <div class="dialogbox">
+                    <div class="body">
+                        <span class="tip tip-left"></span>
+                        <div class="message">
+                            <span>
+                            <h4>Daniel Vandaft - <span>Reply</span></h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat saepe, aspernatur sed nulla sit sunt
+                            porro temporibus labore sequi cupiditate expedita voluptate a eos aliquam corporis. Saepe, consectetur eos.</p>
+                            <h5>July 17, 2005 at 15 hours ago</h5></span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="commonParent">
+            <div class="commentParent">
                 <div>
                     <img src="./creative-assets/blog-7.jpeg" alt="">
                 </div>
-                <div class="dialogueBox">
-                    
+                <div class="dialogbox">
+                    <div class="body">
+                        <span class="tip tip-left"></span>
+                        <div class="message">
+                            <span>
+                                <h4>Jennifer Loopz - <span>Reply</span></h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat saepe, aspernatur sed nulla sit sunt
+                                porro temporibus labore sequi cupiditate expedita voluptate a eos aliquam corporis. Saepe, consectetur eos.</p>
+                                <h5>July 17, 2005 at 15 hours ago</h5></span>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="commentLeaving">
-            <h2>Leave a Comment</h2>
+        <section class="wrapper commentLeaving">
+            <h3>Leave a Comment</h3>
             <form action="">
-                <div class="commonParent">
+                <div class="contactParent">
                     <div>
                         <label for="name" class="visuallyHidden">Name</label>
                         <input type="text" placeholder="Enter your name..." id="name">
@@ -156,11 +176,11 @@
                         <input type="text" placeholder="Subject (Optional)" id="subject">
                     </div>
                 </div>
-                <div>
+                <div class="hereGoes">
                     <label for="comment" class="visuallyHidden">Your comment</label>
-                    <input type="text" placeholder="Here goes your comment" id="comment">
+                    <input type="text" size="200" placeholder="Here goes your comment" id="comment" class="textArea">
                 </div>
-                <button type="submit">Submit Comment</button>
+                <button class="submit" type="submit">Submit Comment</button>
             </form>
         </section>
     </main>
