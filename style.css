@@ -107,15 +107,12 @@ nav ul i {
 }
 
 .firstHome {
-    padding-top: 180px;
     padding-bottom: 150px;
     background-color: #C3DAB7;
 }
 
 .circle {
-    position: absolute;
-    left: 381px;
-    bottom: -339px;
+    transform: translate(-213px, 150px);
     z-index: 1;
 }
 
@@ -830,6 +827,79 @@ input::placeholder {
 
 .textArea {
     padding-bottom: 120px;
+}
+
+/* Contact Section */
+
+.contactBackgroundStrip {
+    background-image: url(./creative-assets/contact-1.jpeg);
+    height: 185px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactFirst h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 50px;
+    transform: translateY(-91px);
+}
+
+.contactFirst h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.contactFirst p {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    font-weight: regular;
+}
+ 
+.contactOptionsParent {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.contactOptionsParent i {
+    font-size: 30px;
+}
+
+.contactOptionsParent .borderSides {
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    padding: 0px 56px;
+
+}
+
+.contactOptionsParent p {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 14px;
+    line-height: 5px;
+    letter-spacing: 0.3px;
+    font-weight: regular;
+}
+
+.commentLeaving h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+    padding-top: 60px;
 }
 
 
