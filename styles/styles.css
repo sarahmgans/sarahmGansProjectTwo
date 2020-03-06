@@ -370,7 +370,7 @@ nav ul i {
 .line {
   height: 110px;
   width: 50%;
-  border-right: 1.5px solid rgba(73, 71, 71, 0.3);
+  border-bottom: 1.5px solid rgba(73, 71, 71, 0.3);
   -webkit-transform: translateY(-55px);
           transform: translateY(-55px);
 }
