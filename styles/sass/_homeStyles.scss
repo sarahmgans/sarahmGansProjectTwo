@@ -46,11 +46,20 @@ nav ul i {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -150px;
 }
 
 .firstHome {
     padding-bottom: 150px;
     background-color: #C3DAB7;
+
+}
+
+.line {
+    height: 110px;
+    width: 50%;
+    border-right: $lightBorder;
+    transform: translateY(-55px);
 }
 
 .circle {
@@ -163,6 +172,12 @@ nav ul i {
     padding-bottom: 20px;
 }
 
+.secondLine {
+    width: 50%;
+    border-right: $lightBorder;
+    height: 55px;
+}
+
 .gridWrapper {
     display: grid;
     grid-template-rows: 270px 270px;
@@ -189,7 +204,7 @@ nav ul i {
     font-size: 27px;
     line-height: 24px;
     text-align: center;
-    padding-top: 80px; 
+    padding-top: 40px; 
     padding-bottom: 80px;
 }
 

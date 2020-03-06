@@ -359,11 +359,20 @@ nav ul i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: -150px;
 }
 
 .firstHome {
   padding-bottom: 150px;
   background-color: #C3DAB7;
+}
+
+.line {
+  height: 110px;
+  width: 50%;
+  border-right: 1.5px solid rgba(73, 71, 71, 0.3);
+  -webkit-transform: translateY(-55px);
+          transform: translateY(-55px);
 }
 
 .circle {
@@ -501,6 +510,12 @@ nav ul i {
   padding-bottom: 20px;
 }
 
+.secondLine {
+  width: 50%;
+  border-right: 1.5px solid rgba(73, 71, 71, 0.3);
+  height: 55px;
+}
+
 .gridWrapper {
   display: -ms-grid;
   display: grid;
@@ -547,7 +562,7 @@ nav ul i {
   font-size: 27px;
   line-height: 24px;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 
