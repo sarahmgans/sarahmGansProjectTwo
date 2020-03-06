@@ -661,10 +661,11 @@ h4.middle {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  margin-top: 30px;
 }
 
 .iconParent i {
-  padding-right: 12px;
+  padding-right: 20px;
   font-size: 16px;
   color: white;
 }
@@ -691,10 +692,18 @@ form h4 {
   letter-spacing: 1.8px;
 }
 
+.contact > div:nth-child(2) > p:nth-child(1) {
+  line-height: 1.7;
+}
+
 form p {
   color: white;
   letter-spacing: 0.3px;
   line-height: 1.15px;
+}
+
+p .signup {
+  padding-bottom: 20px;
 }
 
 form.form input[type=text] {
@@ -808,7 +817,7 @@ header.blog {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 5px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1.5px solid rgba(73, 71, 71, 0.3);
 }
 
 .rightBlogParent {
@@ -887,7 +896,7 @@ div.blogTop {
   letter-spacing: 0.9px;
   font-size: 32px;
   padding-bottom: 15px;
-  border-bottom: grey 1px solid;
+  border-bottom: 1.5px solid rgba(73, 71, 71, 0.3);
 }
 
 .comments {
@@ -977,7 +986,7 @@ div.blogTop {
 .hereGoes > textarea:nth-child(2) {
   width: 100%;
   border: none;
-  border-bottom: 1px solid rgba(73, 71, 71, 0.25);
+  border-bottom: 1.5px solid rgba(73, 71, 71, 0.3);
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -1013,7 +1022,7 @@ div.blogTop {
 input[type="text"],
 input[type="email"] {
   border: none;
-  border-bottom: 1px solid rgba(73, 71, 71, 0.25);
+  border-bottom: 1.5px solid rgba(73, 71, 71, 0.3);
   width: 100%;
   height: 30px;
   font-family: "Open Sans", sans-serif;
@@ -1106,7 +1115,7 @@ input::placeholder {
 }
 
 .contactOptionsParent .borderLeft {
-  border-left: 1px solid rgba(73, 71, 71, 0.25);
+  border-left: 1.5px solid rgba(73, 71, 71, 0.3);
   padding-left: 56px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -1152,10 +1161,10 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   .gridWrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 210px 210px;
-        grid-template-rows: 210px 210px;
-    -ms-grid-columns: 210px 210px 210px 210px;
-        grid-template-columns: 210px 210px 210px 210px;
+    -ms-grid-rows: 240px 240px;
+        grid-template-rows: 240px 240px;
+    -ms-grid-columns: 240px 240px 240px 240px;
+        grid-template-columns: 240px 240px 240px 240px;
     grid-gap: 20px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1179,7 +1188,7 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   }
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1030px) {
   .gridWrapper {
     display: -ms-grid;
     display: grid;

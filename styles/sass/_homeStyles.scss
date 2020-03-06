@@ -290,10 +290,11 @@ h4.middle {
 .iconParent {
     display: flex;
     justify-content: flex-start;
+    margin-top: 30px;
 }
 
 .iconParent i {
-    padding-right: 12px;
+    padding-right: 20px;
     font-size: 16px;
     color: white;
 }
@@ -316,10 +317,18 @@ form h4 {
     letter-spacing: 1.8px;
 }
 
+.contact > div:nth-child(2) > p:nth-child(1) {
+    line-height: 1.7;
+}    
+
 form p {
     color: white;
     letter-spacing: 0.3px;
     line-height: 1.15px;
+}
+
+p .signup {
+    padding-bottom: 20px;
 }
 
 form.form input[type=text] {
