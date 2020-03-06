@@ -438,6 +438,7 @@ nav ul i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-position: right;
 }
 
 .thirdSection p {
@@ -591,6 +592,8 @@ nav ul i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 .fifthSection h3 {
@@ -602,7 +605,6 @@ nav ul i {
 .fifthSection p {
   text-align: center;
   padding-bottom: 40px;
-  width: 600px;
   margin: 0 auto;
 }
 
@@ -634,6 +636,7 @@ footer {
 footer p {
   text-align: left;
   color: white;
+  line-height: 1.15;
 }
 
 footer h4 {
@@ -683,10 +686,13 @@ form h4 {
   line-height: 24px;
   color: white;
   text-align: right;
+  letter-spacing: 1.8px;
 }
 
 form p {
   color: white;
+  letter-spacing: 0.3px;
+  line-height: 1.15px;
 }
 
 form.form input[type=text] {
@@ -997,11 +1003,16 @@ div.blogTop {
   padding: 0;
 }
 
+.oneThird {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
 input[type="text"],
 input[type="email"] {
   border: none;
   border-bottom: 1px solid grey;
-  width: 400px;
+  width: 100%;
   height: 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1126,4 +1137,35 @@ input::placeholder {
 section.wrapper:nth-child(2) > p:nth-child(3) {
   width: 50%;
   color: grey;
+}
+
+@media (max-width: 1156px) {
+  .gridWrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 210px 210px;
+        grid-template-rows: 210px 210px;
+    -ms-grid-columns: 210px 210px 210px 210px;
+        grid-template-columns: 210px 210px 210px 210px;
+    grid-gap: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .one {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #f6f6f6;
+  }
 }

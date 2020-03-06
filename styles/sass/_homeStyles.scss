@@ -114,6 +114,7 @@ nav ul i {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-position: right;
 }
 
 .thirdSection p {
@@ -224,6 +225,8 @@ nav ul i {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
 .fifthSection h3 {
@@ -235,7 +238,6 @@ nav ul i {
 .fifthSection p {
     text-align: center;
     padding-bottom: 40px;
-    width: 600px;
     margin: 0 auto;
 }
 
@@ -267,6 +269,7 @@ footer {
 footer p {
     text-align: left;
     color: white;
+    line-height: 1.15;
 }
 
 footer h4 {
@@ -308,10 +311,13 @@ form h4 {
     line-height: 24px;
     color: white;
     text-align: right;
+    letter-spacing: 1.8px;
 }
 
 form p {
     color: white;
+    letter-spacing: 0.3px;
+    line-height: 1.15px;
 }
 
 form.form input[type=text] {
