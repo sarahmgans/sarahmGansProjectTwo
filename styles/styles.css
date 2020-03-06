@@ -439,6 +439,7 @@ nav ul i {
       -ms-flex-align: center;
           align-items: center;
   background-position: right;
+  padding-right: 20px;
 }
 
 .thirdSection p {
@@ -447,7 +448,7 @@ nav ul i {
 
 .thirdSection h3 {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1;
 }
 
 .list {
@@ -1148,6 +1149,50 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     -ms-grid-columns: 210px 210px 210px 210px;
         grid-template-columns: 210px 210px 210px 210px;
     grid-gap: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .one {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #f6f6f6;
+  }
+  .thirdSection p {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 931px) {
+  .thirdSection p {
+    font-size: 13px;
+  }
+  .thirdSection h3 {
+    line-height: 15px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 909px) {
+  .gridWrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 270px 270px;
+        grid-template-rows: 270px 270px;
+    -ms-grid-columns: 270px 270px;
+        grid-template-columns: 270px 270px;
+    grid-gap: 40px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
