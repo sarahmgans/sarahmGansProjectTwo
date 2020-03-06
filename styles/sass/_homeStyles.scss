@@ -110,16 +110,15 @@ nav ul i {
 .thirdSection {
     background-image: url(../creative-assets/home-4.jpeg);
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background-position: right;
-    padding-right: 20px;
 }
 
 .thirdSection p {
-    width: 70%;
+    width: 200px;
 }
 
 .thirdSection h3 {
@@ -133,7 +132,7 @@ nav ul i {
 }
 
 .list ul {
-    width: 32%;
+    width: 400px;
 }
 
 .list .fas.fa-magic,
@@ -160,6 +159,8 @@ nav ul i {
 .imageList {
     display: flex;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .gridWrapper {
@@ -362,7 +363,7 @@ p.bottom {
     font-size: 16px;
     letter-spacing: 6px;
     margin-top: 160px;
-    border-top: 1px solid white;
+    border-top: 1px solid rgba(244, 240, 240, 0.25);;
     padding-top: 60px;
 }
 

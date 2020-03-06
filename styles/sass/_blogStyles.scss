@@ -200,7 +200,7 @@ div.blogTop {
 .hereGoes > textarea:nth-child(2) {
     width: 100%;
     border: none;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(73, 71, 71, 0.25);
     font-family: $smallFont;
     font-size: 14px;
     line-height: 24px;
@@ -236,7 +236,7 @@ div.blogTop {
 input[type="text"],
 input[type="email"] {
     border: none;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(73, 71, 71, 0.25);
     width: 100%;
     height: 30px;
     font-family: $smallFont;

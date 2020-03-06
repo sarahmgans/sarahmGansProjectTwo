@@ -428,7 +428,7 @@ nav ul i {
 .thirdSection {
   background-image: url(../creative-assets/home-4.jpeg);
   background-size: cover;
-  height: 80vh;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -439,11 +439,10 @@ nav ul i {
       -ms-flex-align: center;
           align-items: center;
   background-position: right;
-  padding-right: 20px;
 }
 
 .thirdSection p {
-  width: 70%;
+  width: 200px;
 }
 
 .thirdSection h3 {
@@ -461,7 +460,7 @@ nav ul i {
 }
 
 .list ul {
-  width: 32%;
+  width: 400px;
 }
 
 .list .fas.fa-magic,
@@ -498,6 +497,8 @@ nav ul i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .gridWrapper {
@@ -737,7 +738,7 @@ p.bottom {
   font-size: 16px;
   letter-spacing: 6px;
   margin-top: 160px;
-  border-top: 1px solid white;
+  border-top: 1px solid rgba(244, 240, 240, 0.25);
   padding-top: 60px;
 }
 
@@ -976,7 +977,7 @@ div.blogTop {
 .hereGoes > textarea:nth-child(2) {
   width: 100%;
   border: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(73, 71, 71, 0.25);
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -1012,7 +1013,7 @@ div.blogTop {
 input[type="text"],
 input[type="email"] {
   border: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(73, 71, 71, 0.25);
   width: 100%;
   height: 30px;
   font-family: "Open Sans", sans-serif;
@@ -1099,9 +1100,16 @@ input::placeholder {
   font-size: 30px;
 }
 
+.contactOptionsParent > div:nth-child(1) {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .contactOptionsParent .borderLeft {
-  border-left: 1px solid grey;
+  border-left: 1px solid rgba(73, 71, 71, 0.25);
   padding-left: 56px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .contactOptionsParent p {
@@ -1140,7 +1148,7 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   color: grey;
 }
 
-@media (max-width: 1156px) {
+@media (max-width: 1160px) {
   .gridWrapper {
     display: -ms-grid;
     display: grid;
@@ -1169,22 +1177,9 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
             justify-content: center;
     background-color: #f6f6f6;
   }
-  .thirdSection p {
-    line-height: 1.5;
-  }
 }
 
-@media (max-width: 931px) {
-  .thirdSection p {
-    font-size: 13px;
-  }
-  .thirdSection h3 {
-    line-height: 15px;
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 909px) {
+@media (max-width: 1028px) {
   .gridWrapper {
     display: -ms-grid;
     display: grid;
