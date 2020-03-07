@@ -1,4 +1,21 @@
-@media(max-width: 1160px) {
+@media(max-width: 1306px) {
+    .threePicturesParent {
+        justify-content: center;
+    }
+
+    .threePics {
+    width: calc(33.33% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+
+@media(max-width: 1209px) {
+    .commonParent li {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
     .gridWrapper {
     display: grid;
     grid-template-rows: 240px 240px;
@@ -16,8 +33,13 @@
 
 }
 
-@media(max-width: 1030px) {
-     .gridWrapper {
+@media(max-width: 1067px) {
+    .commonParent li {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    
+    .gridWrapper {
         display: grid;
         grid-template-rows: 270px 270px;
         grid-template-columns: 270px 270px;
@@ -30,6 +52,102 @@
     flex-direction: column;
     justify-content: center;
     background-color: #f6f6f6;
+    }
+
+}
+
+@media(max-width: 944px) {
+    .commonParent nav {
+        display: none;
+    }
+
+    .fa.fa-bars {
+        visibility: visible;
+        right: 45px;
+        top: -63px;
+        font-size: 33px;
+    }
+
+    .firstHome {
+        padding-bottom: 90px;
+    }
+
+    .imagesFirstSection {
+        margin-top: -205px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer h4 {
+        padding-bottom: 8px;
+        font-size: 16px;
+    }
+
+    .secondSection {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .thirdSection {
+        height: 80vh;
+    }
+
+    .green {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .fourthSection h2 {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .imageList {
+        padding-bottom: 0;
+        padding-top: 0;
+
+    }
+
+    .fifthSection {
+        margin-top: 100px;
+    }
+
+    .fifthSection p {
+        padding-bottom: 25px;
+        padding-top: 5px;
+    }
+
+    .blogPage h1 {
+        font-size: 44px;
+    }
+
+    div.blogTop {
+        margin-left: 35px;
+    }
+
+    .blogTop p {
+        padding-bottom: 15px;
+    }
+
+    .rightBlogParent {
+        margin-left: 20px;
+    }
+
+    .contactOptionsParent {
+        padding-top: 23px;
+    }
+
+    .contactOptionsParent .borderLeft {
+        padding-left: 35px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .contactOptionsParent > div:nth-child(1) {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
 }
