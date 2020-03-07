@@ -16,11 +16,12 @@ header.blog {
     letter-spacing: 0.9px;
     font-size: 50px;
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    margin-bottom: 25px;
 }
 
 .blogFirst p {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .blogFirst p span {
@@ -50,7 +51,6 @@ header.blog {
 .bigBlogParent {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 5px;
     border-bottom: $lightBorder;
 }
 
@@ -67,7 +67,7 @@ div.blogTop {
 }
 
 .blogTop p {
-    padding-bottom: 40px;
+    padding-bottom: 28px;
     color: grey;
     margin-top: 8px;
 }
@@ -80,7 +80,7 @@ div.blogTop {
 
 .blogText .bold {
     color: black;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .blogFirst h5 {
@@ -96,6 +96,10 @@ div.blogTop {
 .shareParent i {
     margin: 10px;
     font-size: 13px;
+}
+
+.blogSecond {
+    margin-top: 55px;
 }
 
 .threePictureParent {
@@ -115,13 +119,23 @@ div.blogTop {
 }
 
 .blogPage h3,
-.contact h3 {
+.contact h3,
+.commentLeaving h3 {
     font-weight: bold;
     letter-spacing: 0.9px;
     font-size: 32px;
     padding-bottom: 15px;
     border-bottom: $lightBorder;
 }
+
+.commentLeaving h3 {
+  padding-top: 40px;
+}
+
+.blogPage h3 {
+    margin-top: 10px;
+}
+
 
 .comments {
     display: flex;
@@ -131,7 +145,7 @@ div.blogTop {
 .commentParent {
     display: flex;
     margin-top: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 /* dialogue box from codepen https://codepen.io/talentedunicorn/pen/rEqsf */

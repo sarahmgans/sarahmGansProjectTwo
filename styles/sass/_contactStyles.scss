@@ -10,20 +10,25 @@
     letter-spacing: $frequentLetterSpacing;
     font-size: 40px;
     font-weight: bold;
-    width: 50px;
+    width: 30px;
     transform: translateY(-91px);
+    margin-bottom: 0px;
+    border-top: 3px solid black;
+    padding-top: 23px;
+    margin-top: 0px;
 }
 
 .contactFirst h3 {
     font-weight: bold;
     letter-spacing: $frequentLetterSpacing;
     font-size: 14px;
+    margin-top: 0px;
 }
  
 .contactOptionsParent {
     display: flex;
     justify-content: space-around;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .contactOptionsParent i {
@@ -51,18 +56,20 @@
     letter-spacing: $frequentLetterSpacing;
     font-size: 14px;
     margin-bottom: 15px;
+    letter-spacing: 3.3px;
 }
 
-.commentLeaving h3 {
+.commentLeave h3 {
     font-weight: bold;
     letter-spacing: $frequentLetterSpacing;
     font-size: 14px;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
-.commentLeaving p {
+.commentLeave p {
     line-height: 5px;
     color: grey;
+    padding-bottom: 35px;
 }
 
 .contact h3 {
