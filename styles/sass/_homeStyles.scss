@@ -76,21 +76,22 @@ nav ul i {
     border-right: 1.5px solid rgba(73, 71, 71, 0.3);
 }
 
+.circle {
+    transform: translate(-215px, 151px);
+    z-index: 1;
+}
+
+
 .secondLine {
     width: 50%;
     border-right: $lightBorder;
     height: 55px;
 }
 
-.circle {
-    transform: translate(-213px, 150px);
-    z-index: 1;
-}
-
 .calendar {
     padding-bottom: 50px;
-    position: relative;
     z-index: -0.5;
+    position: relative;
 }
 
 .firstHome h2 {
