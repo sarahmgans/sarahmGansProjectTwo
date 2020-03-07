@@ -359,7 +359,7 @@ nav ul i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: -150px;
+  margin-top: -195px;
 }
 
 .firstHome {
@@ -370,9 +370,15 @@ nav ul i {
 .line {
   height: 110px;
   width: 50%;
-  border-bottom: 1.5px solid rgba(73, 71, 71, 0.3);
   -webkit-transform: translateY(-55px);
           transform: translateY(-55px);
+  border-right: 1.5px solid rgba(73, 71, 71, 0.3);
+}
+
+.secondLine {
+  width: 50%;
+  border-right: 1.5px solid rgba(73, 71, 71, 0.3);
+  height: 55px;
 }
 
 .circle {
@@ -508,12 +514,6 @@ nav ul i {
           align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.secondLine {
-  width: 50%;
-  border-right: 1.5px solid rgba(73, 71, 71, 0.3);
-  height: 55px;
 }
 
 .gridWrapper {
@@ -676,11 +676,10 @@ h4.middle {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-top: 30px;
 }
 
 .iconParent i {
-  padding-right: 20px;
+  padding-right: 12px;
   font-size: 16px;
   color: white;
 }
@@ -707,18 +706,10 @@ form h4 {
   letter-spacing: 1.8px;
 }
 
-.contact > div:nth-child(2) > p:nth-child(1) {
-  line-height: 1.7;
-}
-
 form p {
   color: white;
   letter-spacing: 0.3px;
   line-height: 1.15px;
-}
-
-p .signup {
-  padding-bottom: 20px;
 }
 
 form.form input[type=text] {
