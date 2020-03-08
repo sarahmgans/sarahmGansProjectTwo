@@ -57,6 +57,31 @@ nav ul i {
     font-size: 14px;
 }
 
+.shoppingParent {
+    display: flex;
+}
+
+.shoppingParent > i:nth-child(1) {
+    position: relative;
+}
+
+.smallCart > p:nth-child(1) {
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    background-color: #C3DAB7;
+    border-radius: 50%;
+    font-size: 8px;
+    line-height: 1;
+    padding: 3px 4.5px 3px 4.5px;
+    font-family: $largeFont;
+}
+
+.fa-search,
+.fa-shopping-bag {
+    font-size: 16px;
+}
+
 .imagesFirstSection {
     display: flex;
     flex-direction: column;
@@ -421,7 +446,8 @@ p.bottom {
     letter-spacing: 6px;
     margin-top: 130px;
     border-top: 1px solid rgba(244, 240, 240, 0.25);;
-    padding-top: 60px;
+    padding-top: 80px;
+    transform: scale(1, 0.9);
 }
 
 .end {
