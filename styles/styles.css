@@ -1347,6 +1347,11 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
             justify-content: center;
     background-color: #f6f6f6;
   }
+  .threePics {
+    width: calc(33.33% - 10px);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
 }
 
 @media (max-width: 944px) {

@@ -31,7 +31,7 @@
     background-color: #f6f6f6;
     }
 
-.fourthSection p {
+    .fourthSection p {
         margin: 0 30px 20px 30px;
     }
 
@@ -58,6 +58,11 @@
     background-color: #f6f6f6;
     }
 
+    .threePics {
+        width: calc(33.33% - 10px);
+        margin-right: 5px;
+        margin-left: 5px;
+    }
     
 }
 
