@@ -53,7 +53,6 @@
     justify-content: center;
     background-color: #f6f6f6;
     }
-
 }
 
 @media(max-width: 944px) {
@@ -82,6 +81,10 @@
 
     footer h4 {
         padding-bottom: 8px;
+        font-size: 16px;
+    }
+
+    h4.middle {
         font-size: 16px;
     }
 
@@ -129,6 +132,7 @@
 
     .blogTop p {
         padding-bottom: 15px;
+        margin-top: 6px;
     }
 
     .rightBlogParent {
@@ -350,21 +354,39 @@
 
     div.blogTop {
         margin: 0 auto;
-        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .blogTop p {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .bigBlogParent {
         flex-direction: column;
     }
 
+    .alexPicture {
+        display: flex;
+        align-items: center;
+    }
+
     .alexPicture img {
         margin: 0 auto;
+        display: flex;
+        align-items: center;
     }
 
     .alexPicture,
     .blogParent > div:nth-child(2) {
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .alexPicture > img:nth-child(1) {
+        width: 60px;
+        height: 60px;
     }
 
     .blogParent {
@@ -388,7 +410,7 @@
     }
 
     .blogPage h3, 
-    .contact h3, 
+    
     .commentLeaving h3 {
         font-size: 27px;
     }
@@ -398,6 +420,12 @@
     }
 
     // contact
+
+    .contact h3,
+    .commentLeave h3 {
+        font-size: 16px;
+
+    }
 
     .commentLeave p {
         padding-bottom: 12px;
@@ -601,11 +629,6 @@
         width: 100%;
     }
 
-    .blogTop p {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
     .blogPage h1 {
         font-size: 35px;
     }
@@ -630,7 +653,7 @@
     }
 
     .blogParent {
-        padding-bottom: 20px;
+        padding-bottom: 5px;
     }
 
     section.wrapper:nth-child(1) > p:nth-child(2) {
@@ -651,6 +674,7 @@
         transform: none;
         width: 100%;
         padding-top: 22px;
+        padding-bottom: 20px;
         border: none;
     }
 

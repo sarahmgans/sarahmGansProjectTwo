@@ -947,6 +947,11 @@ div.blogTop {
   margin-top: 10px;
 }
 
+div.commentParent:nth-child(2) > div:nth-child(1),
+div.commentParent:nth-child(3) > div:nth-child(1) {
+  min-width: 70px;
+}
+
 .comments {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -984,6 +989,7 @@ div.blogTop {
 
 .dialogbox {
   margin-left: 30px;
+  width: 100%;
 }
 
 .dialogbox .body {
@@ -1195,10 +1201,14 @@ input::placeholder {
   line-height: 5px;
   color: grey;
   padding-bottom: 35px;
+  margin-top: 0px;
 }
 
 .contact h3 {
   border: none;
+  font-size: 16px;
+  letter-spacing: 1.5;
+  padding-bottom: 5px;
 }
 
 .submit.contact {
@@ -1316,6 +1326,9 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     padding-bottom: 8px;
     font-size: 16px;
   }
+  h4.middle {
+    font-size: 16px;
+  }
   .secondSection {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -1350,6 +1363,7 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   }
   .blogTop p {
     padding-bottom: 15px;
+    margin-top: 6px;
   }
   .rightBlogParent {
     margin-left: 20px;
@@ -1524,7 +1538,12 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   }
   div.blogTop {
     margin: 0 auto;
-    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .blogTop p {
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .bigBlogParent {
     -webkit-box-orient: vertical;
@@ -1532,13 +1551,31 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .alexPicture {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .alexPicture img {
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .alexPicture,
   .blogParent > div:nth-child(2) {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .alexPicture > img:nth-child(1) {
+    width: 60px;
+    height: 60px;
   }
   .blogParent {
     margin: 0 auto;
@@ -1556,12 +1593,15 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     margin-top: 10px;
   }
   .blogPage h3,
-  .contact h3,
   .commentLeaving h3 {
     font-size: 27px;
   }
   .contactParent {
     margin-top: 40px;
+  }
+  .contact h3,
+  .commentLeave h3 {
+    font-size: 16px;
   }
   .commentLeave p {
     padding-bottom: 12px;
@@ -1775,10 +1815,6 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   .fifthSection .picture {
     width: 100%;
   }
-  .blogTop p {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
   .blogPage h1 {
     font-size: 35px;
   }
@@ -1799,7 +1835,7 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     top: -61px;
   }
   .blogParent {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
   }
   section.wrapper:nth-child(1) > p:nth-child(2) {
     padding-bottom: 20px;
@@ -1821,6 +1857,7 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
             transform: none;
     width: 100%;
     padding-top: 22px;
+    padding-bottom: 20px;
     border: none;
   }
   .commentLeave p {
