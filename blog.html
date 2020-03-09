@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<body lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -40,14 +40,14 @@
                             <a href="contact.html">Contact</a>
                         </li>
                         <li>
-                            <i class="fas fa-search"></i>
+                            <i class="fas fa-search" aria-hidden="true"></i><span class="sr-only">Search</span>
                         </li>
                         <li class="shoppingParent">
-                            <i class="fas fa-shopping-bag">
+                            <i class="fas fa-shopping-bag" aria-hidden="true">
                                 <div class="smallCart">
                                     <p>2</p>
                                 </div>
-                            </i>
+                            </i><span class="sr-only">Shopping cart</span>
                         </li>
                     </ul>
                 </nav>
@@ -64,7 +64,7 @@
             <div class="bigBlogParent">
                 <div class="blogParent">
                     <div class="alexPicture">
-                        <img src="./creative-assets/home-9.jpeg" alt="">
+                        <img src="./creative-assets/home-9.jpeg" alt="A photograph of Alex, the administor and author of the blog.">
                     </div>
                     <div class="blogTop">
                         <h4>Alex</h4>
@@ -95,13 +95,13 @@
             <div class="shareParent">
                 <h5>Share:</h5>
                 <div>
-                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i><span class="sr-only">Facebook</span>
                 </div>
                 <div>
-                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span>
                 </div>
                 <div>
-                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span>
                 </div>
             </div>
         </section>
@@ -110,19 +110,19 @@
             <div class="threePictureParent">
                 <div class="threePics">
                     <div>
-                        <img src="./creative-assets/blog-3.jpeg" alt="">
+                        <img src="./creative-assets/blog-3.jpeg" alt="A photo of a lamp on a desk next to a laptop.">
                     </div>
                     <p>July 25, 2018</p>
                 </div>
                 <div class="threePics">
                     <div>
-                        <img src="./creative-assets/blog-4.jpeg" alt="">
+                        <img src="./creative-assets/blog-4.jpeg" alt="A photo of a variety of plants on a desk.">
                     </div>
                     <p>July 26, 2018</p>
                 </div>
                 <div class="threePics">
                     <div>
-                        <img src="./creative-assets/blog-5.jpeg" alt="">
+                        <img src="./creative-assets/blog-5.jpeg" alt="A photo of the back of an iphone and a laptop.">
                     </div>
                     <p>July 28, 2018</p>
                 </div>
@@ -132,7 +132,7 @@
             <h3>02 Comments</h3>
             <div class="commentParent">
                 <div>
-                    <img src="./creative-assets/blog-6.jpeg" alt="">
+                    <img src="./creative-assets/blog-6.jpeg" alt="A picture of Daniel Vandaft, the author of the first comment.">
                 </div>
                 <!-- dialogue box from codepen https://codepen.io/talentedunicorn/pen/rEqsf -->
                 <div class="dialogbox">
@@ -149,7 +149,7 @@
             </div>
             <div class="commentParent">
                 <div>
-                    <img src="./creative-assets/blog-7.jpeg" alt="">
+                    <img src="./creative-assets/blog-7.jpeg" alt="A picture of Jennifer Loopz, the author of the second comment.">
                 </div>
                 <div class="dialogbox">
                     <div class="body">
@@ -196,21 +196,21 @@
                 <div class="contact">
                     <h4>Contact Us</h4>
                     <div class="address">
-                        <p>6591 Orchard Street, Toronto, Ontario<br>
-                            Email: contact@creative.com<br>
-                            Phone 01: 123 456 7890<br>
-                            Phone 02: 345 678 9101<br>
+                        <p>6591 Orchard Street, Toronto, Ontario<br />
+                            Email: contact@creative.com<br />
+                            Phone 01: 123 456 7890<br />
+                            Phone 02: 345 678 9101<br />
                             Fax: 643 6543 898</p>
                     </div>
                     <div class="iconParent">
                         <div>
-                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i><span class="sr-only">Facebook</span>
                         </div>
                         <div>
-                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span>
                         </div>
                         <div>
-                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span>
                         </div>
                     </div>
                 </div>
@@ -234,17 +234,18 @@
                         </li>
                     </ul>
                 </div>
-                <form class="form" action="#">
+                <form class="form clearfix" action="#">
                     <label for="email">
                         <h4>Subscribe Now</h4>
                     </label>
                     <p>Signup for emails and notifications below.</p>
                     <input type="text" placeholder="Enter your email" name="search">
-                    <button type="submit"><i class="fas fa-long-arrow-alt-right"></i></button>
+                    <button type="submit"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i><span
+                            class="sr-only">A button with an arrow towards the right.</span></button>
                 </form>
             </div>
         </div>
         <p class="bottom">Creative Agency</p>
     </footer>
     </body>
-</html>
+</body>

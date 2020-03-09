@@ -613,7 +613,7 @@ nav ul i {
 
 .fourthSection p {
   text-align: left;
-  margin: 0 30px 30px 30px;
+  margin: 0 40px 40px 40px;
 }
 
 .fourthSection h3 {
@@ -624,7 +624,7 @@ nav ul i {
 }
 
 .one > h3:nth-child(1) {
-  margin-left: 15px;
+  margin-left: 22px;
 }
 
 .fifthSection {
@@ -667,7 +667,7 @@ nav ul i {
 .fifthSection p {
   text-align: center;
   padding-bottom: 40px;
-  padding-top: 30px;
+  padding-top: 25px;
   margin: 0 auto;
 }
 
@@ -675,14 +675,16 @@ nav ul i {
   color: black;
   background-color: white;
   border: none;
-  padding: 15px 20px;
+  padding: 19px 19px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
   margin: 0 auto;
-  width: 169px;
-  font-weight: bold;
+  width: 193px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  letter-spacing: 0.4px;
 }
 
 .button a {
@@ -1310,7 +1312,7 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     background-color: #f6f6f6;
   }
   .fourthSection p {
-    margin: 0 30px 20px 30px;
+    margin: 0 40px 20px 40px;
   }
 }
 
@@ -1721,12 +1723,32 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   .commentLeave p {
     text-align: center;
   }
+  .threePictureParent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .threePics {
+    width: 250px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .threePictureParent p {
+    margin-bottom: 35px;
+  }
   section.wrapper:nth-child(2) > p:nth-child(3) {
     width: 100%;
   }
 }
 
-@media (max-width: 669px) {
+@media (max-width: 681px) {
   .imagesFirstSection {
     margin-top: -131px;
   }

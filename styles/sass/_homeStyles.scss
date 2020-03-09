@@ -253,7 +253,7 @@ nav ul i {
 
 .fourthSection p {
     text-align: left;
-    margin: 0 30px 30px 30px;
+    margin: 0 40px 40px 40px;
 }
 
 .fourthSection h3 {
@@ -264,7 +264,7 @@ nav ul i {
 } 
 
 .one > h3:nth-child(1) {
-    margin-left: 15px;
+    margin-left: 22px;
 }
 
 .fifthSection {
@@ -298,7 +298,7 @@ nav ul i {
 .fifthSection p {
     text-align: center;
     padding-bottom: 40px;
-    padding-top: 30px;
+    padding-top: 25px;
     margin: 0 auto;
 }
 
@@ -306,14 +306,16 @@ nav ul i {
     color: black;
     background-color: white;
     border: none;
-    padding: 15px 20px;
+    padding: 19px 19px;
     font-family: $smallFont;
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
     margin: 0 auto;
-    width: 169px;
-    font-weight: bold;
+    width: 193px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    letter-spacing: 0.4px;
 }
 
 .button a {

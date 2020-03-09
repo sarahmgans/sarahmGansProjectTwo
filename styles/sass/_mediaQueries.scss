@@ -32,7 +32,7 @@
     }
 
     .fourthSection p {
-        margin: 0 30px 20px 30px;
+        margin: 0 40px 20px 40px;
     }
 
 }
@@ -430,6 +430,8 @@
         margin-top: 40px;
     }
 
+    
+
     // contact
 
     .contact h3,
@@ -497,12 +499,28 @@
         text-align: center;
     }
 
+    .threePictureParent {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .threePics {
+        width: 250px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .threePictureParent p {
+        margin-bottom: 35px;
+    }
+
     section.wrapper:nth-child(2) > p:nth-child(3) {
         width: 100%;
     }
 }
 
-@media(max-width: 669px) {
+@media(max-width: 681px) {
    .imagesFirstSection {
        margin-top: -131px;
    }
