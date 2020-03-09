@@ -74,8 +74,12 @@
     .fa.fa-bars {
         visibility: visible;
         right: 12px;
-        top: -59px;
+        top: -65px;
         font-size: 26px;
+    }
+
+    .home.fa.fa-bars {
+        top: -59px;
     }
 
     .firstHome {
@@ -193,13 +197,17 @@
 
     }
 
+    .centerForm {
+        display: flex;
+        justify-content: center;
+    }
+
     form.form input[type="text"]{
-        width: 60%;
-        margin-left: 12%;
+        width: 35%;
     }
 
     form.form button {
-        width: 15%;
+        width: 7%;
     }
 
     footer h4 {
@@ -225,9 +233,17 @@
     }
 
     .fa.fa-bars {
-        top: -57px;
+        top: -61px;
         font-size: 26px;
         right: 12px;
+    }
+
+    .home.fa.fa-bars {
+        top: -56px;
+    }
+
+    .contact .fa.fa-bars {
+        top: -65px;
     }
 
     .circle > img:nth-child(1) {
@@ -343,8 +359,7 @@
         height: 85vh;
     }
 
-    .blogPage h2,
-    .commonParent h2 {
+    .blogPage h2 {
         font-size: 35px;
     }
 
@@ -528,6 +543,16 @@
    
     .fa.fa-bars {
        top: -56px;
+       font-size: 26px;
+       right: 12px;
+   }
+
+   .home.fa.fa-bars {
+       top: -56px;
+   }
+
+   .contact .fa.fa-bars {
+       top: -65px;
        font-size: 26px;
        right: 12px;
    }
@@ -734,6 +759,14 @@
         border: none;
         width: 100%;
     }
+
+    form.form input[type="text"] {
+        width: 42%;
+    }
+
+    form.form button {
+        width: 9%;
+    }
 }
 
 @media(max-width:600px) {
@@ -752,6 +785,15 @@
     .calendar img {
         max-width: 400px;
     }
+
+    form.form input[type="text"] {
+        width: 52%;
+    }
+
+    form.form button {
+        width: 13%;
+    }
+
 }
 
 @media(max-width: 524px) {
@@ -766,6 +808,9 @@
     .imagesFirstSection {
         margin-top: -141px;
     }
+
+    
+}
 
 @media(max-width: 455px) {
     .imagesFirstSection {
@@ -783,5 +828,14 @@
     .circle {
         transform: translate(-102px, 48px)
     }
+
+    form.form input[type="text"] {
+        width: 64%;
+    }
+
+    form.form button {
+        width: 15%;
+    }
+
 }
-}
+

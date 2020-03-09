@@ -440,6 +440,7 @@ nav ul i {
   line-height: 24px;
   text-align: center;
   z-index: -1;
+  font-weight: 500;
 }
 
 .firstHome p,
@@ -1179,13 +1180,13 @@ input::placeholder {
   background-position: center;
 }
 
-.commonParent h2 {
+.contact h2 {
   font-weight: bold;
   letter-spacing: 0.9px;
   font-size: 37px;
 }
 
-.contactFirst h2 {
+.contactFirst h1 {
   letter-spacing: 0.3px;
   font-size: 40px;
   font-weight: bold;
@@ -1369,8 +1370,11 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   .fa.fa-bars {
     visibility: visible;
     right: 12px;
-    top: -59px;
+    top: -65px;
     font-size: 26px;
+  }
+  .home.fa.fa-bars {
+    top: -59px;
   }
   .firstHome {
     padding-bottom: 90px;
@@ -1464,12 +1468,19 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   p.bottom {
     margin-top: 70px;
   }
+  .centerForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   form.form input[type="text"] {
-    width: 60%;
-    margin-left: 12%;
+    width: 35%;
   }
   form.form button {
-    width: 15%;
+    width: 7%;
   }
   footer h4 {
     text-align: center;
@@ -1489,9 +1500,15 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     font-size: 35px;
   }
   .fa.fa-bars {
-    top: -57px;
+    top: -61px;
     font-size: 26px;
     right: 12px;
+  }
+  .home.fa.fa-bars {
+    top: -56px;
+  }
+  .contact .fa.fa-bars {
+    top: -65px;
   }
   .circle > img:nth-child(1) {
     width: 80%;
@@ -1580,8 +1597,7 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   header.blog {
     height: 85vh;
   }
-  .blogPage h2,
-  .commonParent h2 {
+  .blogPage h2 {
     font-size: 35px;
   }
   .blogPage h1 {
@@ -1761,6 +1777,14 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   }
   .fa.fa-bars {
     top: -56px;
+    font-size: 26px;
+    right: 12px;
+  }
+  .home.fa.fa-bars {
+    top: -56px;
+  }
+  .contact .fa.fa-bars {
+    top: -65px;
     font-size: 26px;
     right: 12px;
   }
@@ -1963,6 +1987,12 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     border: none;
     width: 100%;
   }
+  form.form input[type="text"] {
+    width: 42%;
+  }
+  form.form button {
+    width: 9%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1979,6 +2009,12 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   .calendar img {
     max-width: 400px;
   }
+  form.form input[type="text"] {
+    width: 52%;
+  }
+  form.form button {
+    width: 13%;
+  }
 }
 
 @media (max-width: 524px) {
@@ -1994,7 +2030,7 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   }
 }
 
-@media (max-width: 524px) and (max-width: 455px) {
+@media (max-width: 455px) {
   .imagesFirstSection {
     margin-top: -95px;
   }
@@ -2007,5 +2043,11 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   .circle {
     -webkit-transform: translate(-102px, 48px);
             transform: translate(-102px, 48px);
+  }
+  form.form input[type="text"] {
+    width: 64%;
+  }
+  form.form button {
+    width: 15%;
   }
 }
