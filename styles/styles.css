@@ -259,6 +259,11 @@ img {
   line-height: 0;
 }
 
+.largeWrapper {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
 .wrapper {
   max-width: 1280px;
   width: 90%;
@@ -476,6 +481,7 @@ nav ul i {
   text-align: center;
   margin: 0 auto;
   font-style: italic;
+  color: #4f4b4b;
 }
 
 .fas.fa-chevron-left,
@@ -501,7 +507,7 @@ nav ul i {
 
 .thirdSection p {
   width: 200px;
-  color: grey;
+  color: #868080;
 }
 
 .thirdSection h3 {
@@ -622,10 +628,16 @@ nav ul i {
   line-height: 24px;
   text-align: center;
   width: 200px;
+  color: #4f4b4b;
 }
 
 .one > h3:nth-child(1) {
   margin-left: 22px;
+  color: #4f4b4b;
+}
+
+.one > p:nth-child(2) {
+  color: #4f4b4b;
 }
 
 .fifthSection {
@@ -663,6 +675,7 @@ nav ul i {
   font-size: 25px;
   line-height: 24px;
   text-align: center;
+  color: #4f4b4b;
 }
 
 .fifthSection p {
@@ -670,6 +683,7 @@ nav ul i {
   padding-bottom: 40px;
   padding-top: 25px;
   margin: 0 auto;
+  color: #4f4b4b;
 }
 
 .button {
@@ -1060,7 +1074,7 @@ div.commentParent:nth-child(3) > div:nth-child(1) {
 }
 
 .message p {
-  color: darkslategrey;
+  color: #4f4b4b;
   margin: 20px;
 }
 
