@@ -220,7 +220,7 @@
         height: 85vh;
     }
 
-    h1 {
+    .home h1 {
         font-size: 35px;
     }
 
@@ -343,7 +343,8 @@
         height: 85vh;
     }
 
-    .blogPage h2 {
+    .blogPage h2,
+    .commonParent h2 {
         font-size: 35px;
     }
 

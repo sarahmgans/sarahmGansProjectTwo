@@ -6,7 +6,13 @@
     background-position: center;
 }
 
-.contactFirst h1 {
+.commonParent h2 {
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    font-size: 37px;
+}
+
+.contactFirst h2 {
     letter-spacing: $frequentLetterSpacing;
     font-size: 40px;
     font-weight: bold;

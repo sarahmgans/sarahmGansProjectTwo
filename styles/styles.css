@@ -1179,7 +1179,13 @@ input::placeholder {
   background-position: center;
 }
 
-.contactFirst h1 {
+.commonParent h2 {
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  font-size: 37px;
+}
+
+.contactFirst h2 {
   letter-spacing: 0.3px;
   font-size: 40px;
   font-weight: bold;
@@ -1479,7 +1485,7 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   header.home {
     height: 85vh;
   }
-  h1 {
+  .home h1 {
     font-size: 35px;
   }
   .fa.fa-bars {
@@ -1574,7 +1580,8 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   header.blog {
     height: 85vh;
   }
-  .blogPage h2 {
+  .blogPage h2,
+  .commonParent h2 {
     font-size: 35px;
   }
   .blogPage h1 {
