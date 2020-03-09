@@ -1,6 +1,12 @@
 nav li a {
     text-decoration: none;
     transition: 0.3s;
+    border-bottom: 1px solid transparent;
+}
+
+nav li a:hover,
+nav li a:focus-within {
+    border-bottom: 1px solid black;
 }
 
 .commonParent li {
@@ -176,7 +182,7 @@ nav ul i {
 
 .thirdSection p {
     width: 200px;
-    color: #868080;
+    color: #4f4b4b;
 }
 
 .thirdSection h3 {

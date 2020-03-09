@@ -306,6 +306,12 @@ nav li a {
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+nav li a:hover,
+nav li a:focus-within {
+  border-bottom: 1px solid black;
 }
 
 .commonParent li {
@@ -507,7 +513,7 @@ nav ul i {
 
 .thirdSection p {
   width: 200px;
-  color: #868080;
+  color: #4f4b4b;
 }
 
 .thirdSection h3 {
@@ -1339,8 +1345,8 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
 
 @media (max-width: 1067px) {
   .commonParent li {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 3px;
+    margin-left: 3px;
   }
   .gridWrapper {
     display: -ms-grid;
@@ -1401,6 +1407,7 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   }
   footer h4 {
     font-size: 16px;
+    padding-bottom: 0px;
   }
   h4.middle {
     font-size: 16px;
