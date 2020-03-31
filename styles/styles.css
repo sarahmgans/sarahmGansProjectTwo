@@ -1392,10 +1392,17 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     visibility: visible;
   }
   .navVisible {
-    visibility: visible;
+    display: block;
+    right: 0;
+    float: right;
   }
   nav {
-    visibility: hidden;
+    display: none;
+    right: -210px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.399);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   .hamburger-menu ul {
     display: -webkit-box;
@@ -1405,12 +1412,24 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   .hamburger-menu ul li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  .hamburger-menu a {
+    color: white;
+  }
+  .hamburger-menu a:hover,
+  .hamburger-menu a:focus-within {
+    border-bottom: 1px solid white;
   }
   .home.fa.fa-bars {
     right: 12px;
