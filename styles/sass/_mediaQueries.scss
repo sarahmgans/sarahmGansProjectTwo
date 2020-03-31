@@ -75,6 +75,14 @@
         visibility: visible;
     }
 
+    .navVisible {
+        visibility: visible;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+
     .hamburger-menu ul {
         display: flex;
         flex-direction: column;
@@ -85,15 +93,16 @@
         margin-bottom: 10px;
     }
 
-    .fa.fa-bars {
-        
+    .home.fa.fa-bars {
         right: 12px;
-        top: -65px;
+        top: -59px;
         font-size: 26px;
     }
 
-    .home.fa.fa-bars {
-        top: -59px;
+    .home.fas.fa-times {
+        top: -60px;
+        right: 12px;
+        font-size: 30px;
     }
 
     .firstHome {
@@ -247,14 +256,14 @@
         font-size: 35px;
     }
 
-    .fa.fa-bars {
-        top: -61px;
+    .home.fa.fa-bars {
+        top: -56px;
         font-size: 26px;
         right: 12px;
     }
 
-    .home.fa.fa-bars {
-        top: -56px;
+    .home.fas.fa-times {
+        top: -58px;
     }
 
     .contact .fa.fa-bars {

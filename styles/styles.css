@@ -343,7 +343,8 @@ nav ul i {
   visibility: hidden;
 }
 
-.fa.fa-bars {
+.fa.fa-bars,
+.fas.fa-times {
   position: absolute;
   color: black;
 }
@@ -1390,6 +1391,12 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   .hamburger-menu {
     visibility: visible;
   }
+  .navVisible {
+    visibility: visible;
+  }
+  nav {
+    visibility: hidden;
+  }
   .hamburger-menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1405,13 +1412,15 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   .hamburger-menu ul li {
     margin-bottom: 10px;
   }
-  .fa.fa-bars {
+  .home.fa.fa-bars {
     right: 12px;
-    top: -65px;
+    top: -59px;
     font-size: 26px;
   }
-  .home.fa.fa-bars {
-    top: -59px;
+  .home.fas.fa-times {
+    top: -60px;
+    right: 12px;
+    font-size: 30px;
   }
   .firstHome {
     padding-bottom: 90px;
@@ -1537,13 +1546,13 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   .home h1 {
     font-size: 35px;
   }
-  .fa.fa-bars {
-    top: -61px;
+  .home.fa.fa-bars {
+    top: -56px;
     font-size: 26px;
     right: 12px;
   }
-  .home.fa.fa-bars {
-    top: -56px;
+  .home.fas.fa-times {
+    top: -58px;
   }
   .contact .fa.fa-bars {
     top: -65px;
