@@ -71,8 +71,22 @@
         display: none;
     }
 
-    .fa.fa-bars {
+    .hamburger-menu {
         visibility: visible;
+    }
+
+    .hamburger-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .hamburger-menu ul li {
+        margin-bottom: 10px;
+    }
+
+    .fa.fa-bars {
+        
         right: 12px;
         top: -65px;
         font-size: 26px;

@@ -29,12 +29,12 @@ nav ul i {
 
 .hamburger-menu {
     position: relative;
+    visibility: hidden;
 }
 
 .fa.fa-bars {
     position: absolute;
     color: black;
-    visibility: hidden;
 }
 
 header.home {

@@ -340,12 +340,12 @@ nav ul i {
 
 .hamburger-menu {
   position: relative;
+  visibility: hidden;
 }
 
 .fa.fa-bars {
   position: absolute;
   color: black;
-  visibility: hidden;
 }
 
 header.home {
@@ -1387,8 +1387,25 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   .commonParent nav {
     display: none;
   }
-  .fa.fa-bars {
+  .hamburger-menu {
     visibility: visible;
+  }
+  .hamburger-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .hamburger-menu ul li {
+    margin-bottom: 10px;
+  }
+  .fa.fa-bars {
     right: 12px;
     top: -65px;
     font-size: 26px;
