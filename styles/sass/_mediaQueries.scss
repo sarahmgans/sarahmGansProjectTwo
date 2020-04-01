@@ -898,5 +898,26 @@
         width: 15%;
     }
 
+    .home.fa.fa-bars, .blog.fa.fa-bars, .contact.fa.fa-bars, .home.fas.fa-times, .blog.fas.fa-times, .contact.fas.fa-times{
+        right: 20px;
+    }
+
+    .hamburger-menu ul {
+        align-items: flex-end;
+        padding-right: 10px;
+    }
+
+    nav {
+        right: -120px;
+        width: 120px;
+    }
+
+    // .navVisible > ul:nth-child(1) > li:nth-child(6),
+    // li.shoppingParent:nth-child(7) {
+    //     margin: 10px auto;
+    //     padding-left: 10px;
+    // }
+    
+
 }
 

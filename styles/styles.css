@@ -2136,4 +2136,17 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   form.form button {
     width: 15%;
   }
+  .home.fa.fa-bars, .blog.fa.fa-bars, .contact.fa.fa-bars, .home.fas.fa-times, .blog.fas.fa-times, .contact.fas.fa-times {
+    right: 20px;
+  }
+  .hamburger-menu ul {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-right: 10px;
+  }
+  nav {
+    right: -120px;
+    width: 120px;
+  }
 }
