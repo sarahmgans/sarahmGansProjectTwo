@@ -73,31 +73,35 @@
 
     .hamburger-menu {
         visibility: visible;
-        // position: fixed;
     }
 
     .navVisible {
         visibility: visible;
-        left: 0;
+        right: 0;
+        top: 0;
         position: fixed;
     }
 
     nav {
         visibility: hidden;
-        left: 100vw;
-        width: 100%;
         position: fixed;
         background-color: white;
         transition: all 0.5s ease;
         z-index: 3;
         transform: translateY(-14px);
-        border: 1px solid black;
+        border-radius: 1px;
+        right: -135px;
+        top: 0;
+        width: 135px;
     }
 
     .hamburger-menu ul {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+        margin-top: 90px;
+        margin-bottom: 30px;
     }
 
     .hamburger-menu ul li {
@@ -117,29 +121,29 @@
     .home.fa.fa-bars,
     .blog.fa.fa-bars,
     .contact.fa.fa-bars {
-        right: 12px;
         top: 39px;
         font-size: 26px;
         position: fixed;
+        right: 56px;
     }
 
     .home.fas.fa-times {
-        top: 81px;
+        top: 31px;
     }
 
     .home.fas.fa-times,
     .blog.fas.fa-times,
     .contact.fas.fa-times {
-        right: 12px;
+        right: 56px;
         font-size: 30px;
         color: black;
-        z-index: 4;
+        z-index: 1000;
         position: fixed;
     }
 
     .blog.fas.fa-times,
     .contact.fas.fa-times {
-        top: 93px;
+        top: 37px;
     }
     
     .firstHome {
@@ -296,18 +300,8 @@
     .home.fa.fa-bars {
         top: 31px;
         font-size: 26px;
-        right: 12px;
-    }
-
-    .home.fas.fa-times {
-        top: 77px;
-    }
-
-    .blog.fas.fa-times {
-        top: 88px;
     }
     
-
     .contact .fa.fa-bars {
         top: 39px;
     }
@@ -620,11 +614,12 @@
    .contact .fa.fa-bars {
        top: 39px;
        font-size: 26px;
-       right: 12px;
+       right: 56px;
    }
 
    .blogPage .fa.fa-bars {
        top: 37px;
+       right: 56px;
    }
 
    .circle > img:nth-child(1) {
@@ -860,16 +855,6 @@
     form.form button {
         width: 13%;
     }
-
-    .hamburger-menu ul {
-        flex-direction: column;
-    }
-
-    .hamburger-menu ul li {
-        margin-top: 9px;
-        margin-bottom: 9px;
-    }
-
 }
 
 @media(max-width: 524px) {
