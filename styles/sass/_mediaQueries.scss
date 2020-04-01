@@ -73,33 +73,35 @@
 
     .hamburger-menu {
         visibility: visible;
+        // position: fixed;
     }
 
     .navVisible {
-        display: block;
-        right: 0;
-        float: right;
+        visibility: visible;
+        left: 0;
+        position: fixed;
     }
 
     nav {
-        display: none;
-        right: -210px;
+        visibility: hidden;
+        left: 100vw;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.399);
+        position: fixed;
+        background-color: black;
         transition: all 0.5s ease;
+        z-index: 3;
+        transform: translateY(-14px);
     }
 
     .hamburger-menu ul {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        transition: all 0.5s ease;
+        justify-content: center;
     }
 
     .hamburger-menu ul li {
-        margin-bottom: 5px;
-        margin-top: 5px;
-        transition: all 0.5s ease;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .hamburger-menu a {
@@ -118,9 +120,11 @@
     }
 
     .home.fas.fa-times {
-        top: -60px;
+        top: -11px;
         right: 12px;
         font-size: 30px;
+        color: white;
+        z-index: 4;
     }
 
     .firstHome {
