@@ -1432,15 +1432,17 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   }
   .home.fa.fa-bars {
     right: 12px;
-    top: -59px;
+    top: 39px;
     font-size: 26px;
+    position: fixed;
   }
   .home.fas.fa-times {
-    top: -11px;
+    top: 93px;
     right: 12px;
     font-size: 30px;
     color: white;
     z-index: 4;
+    position: fixed;
   }
   .firstHome {
     padding-bottom: 90px;
