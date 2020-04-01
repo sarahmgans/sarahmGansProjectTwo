@@ -2098,6 +2098,16 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
   form.form button {
     width: 13%;
   }
+  .hamburger-menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hamburger-menu ul li {
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
 }
 
 @media (max-width: 524px) {

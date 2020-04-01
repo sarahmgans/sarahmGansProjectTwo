@@ -861,6 +861,15 @@
         width: 13%;
     }
 
+    .hamburger-menu ul {
+        flex-direction: column;
+    }
+
+    .hamburger-menu ul li {
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+
 }
 
 @media(max-width: 524px) {
