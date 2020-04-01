@@ -5,10 +5,16 @@ $(document).ready(function () {
 $('i.home').on('click', function(){
     $('.hamburger-menu nav').toggleClass('navVisible')
     $('i.home').toggleClass('fa fa-bars fas fa-times')
-    // $('header').toggleClass('overlay');
-    // $('h1').toggleClass('navVisible')
 })
 
+$('i.blog').on('click', function () {
+    $('.hamburger-menu nav').toggleClass('navVisible')
+    $('i.blog').toggleClass('fa fa-bars fas fa-times')
+})
 
+$('i.contact').on('click', function () {
+    $('.hamburger-menu nav').toggleClass('navVisible')
+    $('i.contact').toggleClass('fa fa-bars fas fa-times')
+})
 
 });

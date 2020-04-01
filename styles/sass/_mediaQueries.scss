@@ -87,10 +87,11 @@
         left: 100vw;
         width: 100%;
         position: fixed;
-        background-color: black;
+        background-color: white;
         transition: all 0.5s ease;
         z-index: 3;
         transform: translateY(-14px);
+        border: 1px solid black;
     }
 
     .hamburger-menu ul {
@@ -105,15 +106,17 @@
     }
 
     .hamburger-menu a {
-        color: white;
+        color: black;
     }
 
     .hamburger-menu a:hover,
     .hamburger-menu a:focus-within {
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid black;
     }
 
-    .home.fa.fa-bars {
+    .home.fa.fa-bars,
+    .blog.fa.fa-bars,
+    .contact.fa.fa-bars {
         right: 12px;
         top: 39px;
         font-size: 26px;
@@ -121,14 +124,24 @@
     }
 
     .home.fas.fa-times {
-        top: 93px;
+        top: 81px;
+    }
+
+    .home.fas.fa-times,
+    .blog.fas.fa-times,
+    .contact.fas.fa-times {
         right: 12px;
         font-size: 30px;
-        color: white;
+        color: black;
         z-index: 4;
         position: fixed;
     }
 
+    .blog.fas.fa-times,
+    .contact.fas.fa-times {
+        top: 93px;
+    }
+    
     .firstHome {
         padding-bottom: 90px;
     }
@@ -281,17 +294,22 @@
     }
 
     .home.fa.fa-bars {
-        top: -56px;
+        top: 31px;
         font-size: 26px;
         right: 12px;
     }
 
     .home.fas.fa-times {
-        top: -58px;
+        top: 77px;
     }
 
+    .blog.fas.fa-times {
+        top: 88px;
+    }
+    
+
     .contact .fa.fa-bars {
-        top: -65px;
+        top: 39px;
     }
 
     .circle > img:nth-child(1) {
@@ -596,13 +614,17 @@
    }
 
    .home.fa.fa-bars {
-       top: -56px;
+       top: 31px;
    }
 
    .contact .fa.fa-bars {
-       top: -65px;
+       top: 39px;
        font-size: 26px;
        right: 12px;
+   }
+
+   .blogPage .fa.fa-bars {
+       top: 37px;
    }
 
    .circle > img:nth-child(1) {
@@ -753,9 +775,6 @@
 
     .blogParent > div:nth-child(2) > h4:nth-child(1) {
         margin-top: 24px;
-    }
-    .blogPage .fa.fa-bars {
-        top: -61px;
     }
 
     .blogParent {
