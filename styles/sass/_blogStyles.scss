@@ -176,6 +176,7 @@ div.commentParent:nth-child(3) > div:nth-child(1) {
 .dialogbox {
     margin-left: 30px;
     width: 100%;
+    z-index: -1;
 }
 
 .dialogbox .body {
