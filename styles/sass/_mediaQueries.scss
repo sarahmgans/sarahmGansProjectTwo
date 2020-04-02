@@ -91,8 +91,8 @@
         transform: translateY(-14px);
         border-radius: 1px;
         top: 0;
-        right: -250px;
-        width: 250px;
+        right: -225px;
+        width: 225px;
         border-bottom: 1px solid rgba(73, 71, 71, 0.3);
     }
 
@@ -105,14 +105,14 @@
     .hamburger-menu ul {
         display: flex;
         flex-direction: column;
-        margin-top: 90px;
+        margin-top: 70px;
         margin-bottom: 0px;
         padding-left: 17px;
         padding-right: 17px;
     }
 
     .hamburger-menu ul li {
-        margin-top: 14px;
+        padding-bottom: 14px;
         border-top: 1px solid rgba(73, 71, 71, 0.3);
         padding-top: 14px;
     }
@@ -171,9 +171,18 @@
     }
 
     li.shoppingParent:nth-child(7) {
-        padding-bottom: 14px;
+        padding-bottom: 15.3px;
     }
-    
+
+    .navVisible > ul:nth-child(1) > li:nth-child(1) {
+        margin-top: 14px;
+    }
+
+    .navVisible > ul:nth-child(1) > li:nth-child(6) {
+        padding-top: 13.52px;
+        padding-bottom: 13.52px;
+    }
+
     .firstHome {
         padding-bottom: 90px;
     }
