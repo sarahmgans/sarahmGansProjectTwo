@@ -1417,8 +1417,6 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     z-index: 3;
-    -webkit-transform: translateY(-14px);
-            transform: translateY(-14px);
     border-radius: 1px;
     top: 0;
     right: -225px;
