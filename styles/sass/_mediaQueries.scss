@@ -105,7 +105,7 @@
     .hamburger-menu ul {
         display: flex;
         flex-direction: column;
-        margin-top: 70px;
+        margin-top: 85px;
         margin-bottom: 0px;
         padding-left: 17px;
         padding-right: 17px;
@@ -174,15 +174,11 @@
         padding-bottom: 15.3px;
     }
 
-    .navVisible > ul:nth-child(1) > li:nth-child(1) {
-        margin-top: 14px;
-    }
-
     .navVisible > ul:nth-child(1) > li:nth-child(6) {
         padding-top: 13.52px;
         padding-bottom: 13.52px;
     }
-
+    
     .firstHome {
         padding-bottom: 90px;
     }
