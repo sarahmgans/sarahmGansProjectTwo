@@ -85,7 +85,8 @@
     nav {
         visibility: hidden;
         position: fixed;
-        background-color: white;
+        // background-color: white;
+        background-color: rgba(255, 255, 255, 0.767);
         transition: all 0.5s ease;
         z-index: 3;
         transform: translateY(-14px);
@@ -111,6 +112,8 @@
 
     .hamburger-menu a {
         color: black;
+        // color: #4f4b4b;
+        font-weight: 500;
     }
 
     .hamburger-menu a:hover,
@@ -125,6 +128,10 @@
         font-size: 26px;
         position: fixed;
         right: 56px;
+    }
+
+    .home.fa.fa-bars {
+        top: 33px;
     }
 
     .home.fas.fa-times {
@@ -912,12 +919,10 @@
         width: 120px;
     }
 
-    // .navVisible > ul:nth-child(1) > li:nth-child(6),
-    // li.shoppingParent:nth-child(7) {
-    //     margin: 10px auto;
-    //     padding-left: 10px;
-    // }
-    
+    .hamburger-menu ul li {
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
 
 }
 
