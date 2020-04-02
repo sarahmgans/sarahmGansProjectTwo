@@ -85,38 +85,49 @@
     nav {
         visibility: hidden;
         position: fixed;
-        background-color: rgba(255, 255, 255, 0.767);
-        transition: all 0.5s ease;
+        background-color: white;
+        transition: all 0.3s ease;
         z-index: 3;
         transform: translateY(-14px);
         border-radius: 1px;
-        right: -135px;
         top: 0;
-        width: 135px;
+        right: -250px;
+        width: 250px;
+        border-bottom: 1px solid rgba(73, 71, 71, 0.3);
+    }
+
+    nav ul a, 
+    nav ul i {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .hamburger-menu ul {
         display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
         margin-top: 90px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
+        padding-left: 17px;
+        padding-right: 17px;
     }
 
     .hamburger-menu ul li {
-        margin-bottom: 10px;
-        margin-top: 10px;
+        margin-top: 14px;
+        border-top: 1px solid rgba(73, 71, 71, 0.3);
+        padding-top: 14px;
     }
 
     .hamburger-menu a {
         color: black;
-        font-weight: 500;
+        font-weight: 400;
+        transition: 0.3s;
     }
 
     .hamburger-menu a:hover,
     .hamburger-menu a:focus-within {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid transparent;
+        font-weight: 600;
+        letter-spacing: 0.7px;
     }
 
     .home.fa.fa-bars,
@@ -125,7 +136,7 @@
         top: 39px;
         font-size: 26px;
         position: fixed;
-        right: 56px;
+        right: 18px;
     }
 
     .home.fa.fa-bars {
@@ -139,11 +150,16 @@
     .home.fas.fa-times,
     .blog.fas.fa-times,
     .contact.fas.fa-times {
-        right: 56px;
         font-size: 30px;
         color: black;
         z-index: 1000;
         position: fixed;
+    }
+
+    .home.fas.fa-times,
+    .blog.fas.fa-times,
+    .contact.fas.fa-times {
+        right: 18px;
     }
 
     .blog.fas.fa-times {
@@ -152,6 +168,10 @@
 
     .contact.fas.fa-times {
         top: 37px;
+    }
+
+    li.shoppingParent:nth-child(7) {
+        padding-bottom: 14px;
     }
     
     .firstHome {
@@ -606,28 +626,26 @@
 
 @media(max-width: 681px) {
    .imagesFirstSection {
-       margin-top: -131px;
+        margin-top: -131px;
    }
    
     .fa.fa-bars {
-       top: -56px;
-       font-size: 26px;
-       right: 12px;
+        top: -56px;
+        font-size: 26px;
    }
 
    .home.fa.fa-bars {
-       top: 31px;
+        top: 31px;
    }
 
    .contact .fa.fa-bars {
-       top: 39px;
-       font-size: 26px;
-       right: 56px;
+        top: 39px;
+        font-size: 26px;
    }
 
    .blogPage .fa.fa-bars {
-       top: 37px;
-       right: 56px;
+        top: 37px;
+    
    }
 
    .circle > img:nth-child(1) {
@@ -905,25 +923,5 @@
     form.form button {
         width: 15%;
     }
-
-    .home.fa.fa-bars, .blog.fa.fa-bars, .contact.fa.fa-bars, .home.fas.fa-times, .blog.fas.fa-times, .contact.fas.fa-times{
-        right: 20px;
-    }
-
-    .hamburger-menu ul {
-        align-items: flex-end;
-        padding-right: 10px;
-    }
-
-    nav {
-        right: -120px;
-        width: 120px;
-    }
-
-    .hamburger-menu ul li {
-        margin-bottom: 8px;
-        margin-top: 8px;
-    }
-
 }
 
