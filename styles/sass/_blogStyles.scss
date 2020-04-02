@@ -230,7 +230,9 @@ div.commentParent:nth-child(3) > div:nth-child(1) {
     letter-spacing: $frequentLetterSpacing;
     font-weight: regular;
     color: darkslategrey;
-
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
 
 .submit {
@@ -268,6 +270,9 @@ input[type="email"] {
     letter-spacing: $frequentLetterSpacing;
     font-weight: regular;
     color: darkslategrey;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
 
 input::placeholder {
@@ -281,4 +286,10 @@ input::placeholder {
 
 .textArea {
     padding-bottom: 120px;
+}
+
+textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
