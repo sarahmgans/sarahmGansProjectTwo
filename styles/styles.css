@@ -1438,10 +1438,16 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 87px;
+    margin-top: 85px;
     margin-bottom: 0px;
     padding-left: 17px;
     padding-right: 17px;
+  }
+  .blog .hamburger-menu ul {
+    margin-top: 90px;
+  }
+  .contact .hamburger-menu ul {
+    margin-top: 93px;
   }
   .hamburger-menu ul li {
     padding-bottom: 14px;

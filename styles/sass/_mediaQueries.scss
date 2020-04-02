@@ -105,10 +105,18 @@
     .hamburger-menu ul {
         display: flex;
         flex-direction: column;
-        margin-top: 87px;
+        margin-top: 85px;
         margin-bottom: 0px;
         padding-left: 17px;
         padding-right: 17px;
+    }
+
+    .blog .hamburger-menu ul {
+        margin-top: 90px;
+    }
+
+    .contact .hamburger-menu ul {
+        margin-top: 93px;
     }
 
     .hamburger-menu ul li {
