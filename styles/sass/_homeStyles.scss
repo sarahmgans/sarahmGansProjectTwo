@@ -421,14 +421,17 @@ form p {
 }
 
 form.form input[type=text] {
-  padding: 8px;
-  font-size: 12px;
-  border: 1px solid #303030;
-  border-right: none;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
-  height: 42px;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #303030;
+    border-right: none;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    height: 42px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
 
 .fas.fa-long-arrow-alt-right {
