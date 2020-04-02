@@ -1467,9 +1467,11 @@ section.wrapper:nth-child(2) > p:nth-child(3) {
     z-index: 1000;
     position: fixed;
   }
-  .blog.fas.fa-times,
-  .contact.fas.fa-times {
+  .blog.fas.fa-times {
     top: 34px;
+  }
+  .contact.fas.fa-times {
+    top: 37px;
   }
   .firstHome {
     padding-bottom: 90px;

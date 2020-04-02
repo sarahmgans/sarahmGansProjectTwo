@@ -146,9 +146,12 @@
         position: fixed;
     }
 
-    .blog.fas.fa-times,
-    .contact.fas.fa-times {
+    .blog.fas.fa-times {
         top: 34px;
+    }
+
+    .contact.fas.fa-times {
+        top: 37px;
     }
     
     .firstHome {
