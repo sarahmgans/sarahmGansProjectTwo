@@ -7,6 +7,7 @@ $(document).ready(function () {
         $('i.move').toggleClass('fa fa-bars fas fa-times')
     })
 
+    // Accessible hamburger menu
     $('i').on('keydown', function(e){
         if (e.key == 'Enter') {
             $('.hamburger-menu nav').toggleClass('navVisible')

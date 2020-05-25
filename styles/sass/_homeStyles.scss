@@ -439,26 +439,26 @@ form.form input[type=text] {
 }
 
 form.form button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background:#C3DAB7;
-  color: white;
-  font-size: 17px;
-  border: 1px solid #303030;
-  border-left: none; 
-  cursor: pointer;
-  height: 42px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background:#C3DAB7;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #303030;
+    border-left: none; 
+    cursor: pointer;
+    height: 42px;
 }
 
 form.form button:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 form.form::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 p.bottom {
